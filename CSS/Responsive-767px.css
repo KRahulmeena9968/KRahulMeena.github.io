@@ -1,0 +1,150 @@
+.right {
+    width: 34vw;
+}
+
+.list-item {
+    display: none;
+}
+
+/* menu btn */
+.sidebar {
+    position: absolute;
+    right: 0;
+    background-color: #021927;
+    color: white;
+    padding: 50px 0px;
+    height: 100vh;
+    width: 55vw;
+    top: 83px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hambarger {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.hambarger>img {
+    width: 33px;
+    cursor: pointer;
+}
+
+.right-menu>a {
+    color: #00ccff;
+    font-size: 25px;
+    margin-right: 90px;
+}
+
+.sidebar ul li {
+    color: white;
+    list-style: none;
+    padding: 5px;
+}
+
+.list-menu-item {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: normal;
+}
+
+/* menu btn */
+
+.home-cnt {
+    width: 70vw;
+}
+
+.bg-home {
+    background-image: none;
+}
+
+.first {
+    font-size: 30px;
+}
+
+.typeAnimation {
+    font-size: 40px;
+}
+
+p:last-child {
+    font-size: 15px;
+}
+
+.btn-1 {
+    padding: 10px 18px;
+    font-size: 12px;
+}
+
+.btn-2 {
+    width: 6em;
+    height: 2.4em;
+    font-size: 12px;
+    line-height: 2.2em;
+}
+
+.btn-cssbuttons {
+    padding: 12px 22px;
+    font-size: 14px;
+}
+
+.btn-cssbuttons > svg{
+    height: 15px;
+    width: 15px;
+}
+
+.Education {
+    margin-top: 160px;
+}
+
+.rp {
+    font-size: 35px;
+}
+
+.sp > img {
+    width: 200px;
+    height: 200px;
+}
+
+.school {
+    width: 250px;
+    height: 105px;
+}
+.school-journy {
+    padding: 60px;
+}
+.school > h3 {
+    font-size: 14px;
+}
+
+.Skills {
+    margin-top: 620px
+}
+
+.Skills > h1 {
+    font-size: 40px;
+}
+
+.Skills-journy {
+    grid-template-columns: 1fr 1fr;
+}
+
+.skill img {
+    width: 90px;
+}
+
+.Contact {
+    margin-top: 850px;
+}
+
+.Contact > h1 {
+    font-size: 40px;
+}
+
+footer {
+    margin-top: 175px;
+}

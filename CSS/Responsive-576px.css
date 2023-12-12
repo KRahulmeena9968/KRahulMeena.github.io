@@ -1,0 +1,210 @@
+body {
+    text-align: center;
+}
+
+
+
+.right {
+    width: 48vw;
+}
+
+.left {
+    width: 15vw;
+}
+
+.contain {
+    justify-content: space-between;
+}
+
+header {
+    width: 100vw;
+}
+
+main {
+    width: 100vw;
+}
+
+section {
+    width: 100vw;
+}
+
+footer {
+    width: 100vw;
+}
+
+.list-item {
+    display: none;
+}
+
+/* menu btn */
+.sidebar {
+    position: absolute;
+    right: 0;
+    background-color: #021927;
+    color: white;
+    padding: 50px 0px;
+    height: 100vh;
+    width: 75vw;
+    top: 83px;
+    display: none;
+    flex-direction: column;
+}
+
+.form {
+    height: 500px;
+}
+.hambarger {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.hambarger>img {
+    width: 33px;
+    cursor: pointer;
+}
+
+.right-menu>a {
+    color: #00ccff;
+    font-size: 25px;
+    margin-right: 30px;
+}
+
+.sidebar ul li {
+    color: white;
+    list-style: none;
+    padding: 5px;
+}
+
+.list-menu-item {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: normal;
+}
+
+/* menu btn */
+
+.home-cnt {
+    width: 90vw;
+    margin-left: 40px;
+}
+
+.bg-home {
+    background-image: none;
+    display: flex;
+    justify-content: center;
+}
+
+.first {
+    font-size: 25px;
+}
+
+.typeAnimation {
+    font-size: 35px;
+}
+
+p:last-child {
+    font-size: 15px;
+}
+
+.btn-1 {
+    padding: 10px 18px;
+    font-size: 12px;
+}
+
+.btn-2 {
+    width: 6em;
+    height: 2.4em;
+    font-size: 12px;
+    line-height: 2.2em;
+}
+
+.btn-cssbuttons {
+    padding: 12px 22px;
+    font-size: 14px;
+}
+
+.btn-cssbuttons > svg{
+    height: 15px;
+    width: 15px;
+}
+
+.Education {
+    margin-top: 160px;
+}
+
+.fp {
+    font-size: 25px;
+    width: 51vw;
+}
+
+.rp {
+    font-size: 25px;
+    width: 70vw;
+}
+
+.fop {
+    width: 90vw;
+}
+
+/* .know {
+    width: 50vw;
+} */
+
+.Education>h1 {
+    font-size: 40px;
+}
+
+.sp > img {
+    width: 200px;
+    height: 200px;
+}
+
+.about {
+    margin-top: 80px;
+}
+
+.school {
+    height: 125px;
+}
+.school-journy {
+    padding: 60px;
+}
+.school > h3 {
+    font-size: 14px;
+}
+
+.Skills {
+    margin-top: 720px
+}
+
+.Skills > h1 {
+    font-size: 40px;
+}
+
+.Skills-journy {
+    grid-template-columns: 1fr;
+}
+
+.skill img {
+    width: 90px;
+}
+
+.Contact {
+    margin-top: 1950px;
+}
+
+.Contact > h1 {
+    font-size: 40px;
+}
+
+.foot {
+    justify-content: center;
+    gap: 15px;
+}
+footer {
+    margin-top: 195px;
+}
