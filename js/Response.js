@@ -16,7 +16,7 @@ function sendEmail() {
     "<br> Message : " +
     message;
   Email.send({
-    SecureToken: "bb2dab74-79b4-40f6-bf74-ecfeaa0b1165",
+    SecureToken: "c7447995-b49b-4cf2-96fd-722b33660ffd",
     To: "krahulmeena9968@gmail.com",
     From: "krahulmeena9968@gmail.com",
     Subject: "Contact Form Response",
